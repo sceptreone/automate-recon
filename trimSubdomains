@@ -1,0 +1,10 @@
+# ./trimSubdomains fileName 4 gives subdomains to 4 levels -> one.two.example.com
+# ./trimSubdomains fileName 5 gives subdomains to 5 levels -> one.two.three.example.com
+if [ $2 -eq "4" ]; then
+	cat $1 | rev | awk -F. '{print $1"."$2"."$3"."$4}' | rev | sort -u 
+elif [ $2 -eq "5" ]; then	
+	cat $1 | rev | awk -F. '{print $1"."$2"."$3"."$4"."$5}' | rev | sort -u 
+else 
+	cat $1 | rev | awk -F. '{print $1"."$2"."$3}' | rev | sort -u 
+fi
+
