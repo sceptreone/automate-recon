@@ -5,9 +5,9 @@ A collection of bash scripts I wrote to automate my recon, as I am learning diff
 Following [@nahamsec](https://twitter.com/NahamSec) methods from his livestream, tested all tools for enum, these are the one that works best for me. Did stuff manually, and after that automate it, <br />cause 
 AUTOMATE EVERYTHING!!!!!! <br />
 <br />
-The idea here is, to automate the process from finding subdomains, then unique subdomains and taking screenshots too.
+The idea here is, to automate the process from finding subdomains, unique subdomains(one.two.example.com) and taking screenshots.
 And then sending the unique subdomains, again to script to do the same thing. <br /> 
-I will add more stuff as I find time like port scanning and stuff. <br />
+I will add and improve stuff as I find time like port scanning and stuff. <br />
 If you have any bright ideas or want to automate something, just ping me at [@codesceptre](https://twitter.com/codesceptre)
  
 
