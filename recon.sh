@@ -42,7 +42,7 @@ cat allCleaned.txt | ~/go/bin/httprobe > alive.txt
 # Take Screenshots
 screenshots(){
 mkdir screenshots
-~/go/bin/gowitness file --source=alive.txt --threads=${threads} -d screenshots
+~/go/bin/gowitness file -f=alive.txt --threads=${threads} -P screenshots
 }
 
 main()
